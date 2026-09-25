@@ -16,7 +16,7 @@ Paso a paso para la creación de Web API N-Capas con Entity Framework Core.
    - **Nombre del proyecto:** `PizzeriaRepository`
 
 3. **Referenciar las capas:**
-   - Clic derecho en **Dependencias** (o Referencias) del proyecto `PizzeriaWebAPI` $\rightarrow$ **Agregar referencia de proyecto** y marcar `PizzeriaRepository`.
+   - Clic derecho en **Dependencias** (o Referencias) del proyecto `PizzeriaWebAPI` $\rightarrow$ **Agregar referencia de proyecto** y marcar la DLL.
 
 4. **Crear las entidades en Domain:**
    - Crear en la carpeta `Domain` las clases `IngredientePizza` (Detalle) y `Pizza` (Maestro) configuradas con Data Annotations.
